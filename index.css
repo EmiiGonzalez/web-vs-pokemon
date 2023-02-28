@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Puritan:wght@400;700&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    height: 100vh;
+    background: url(img/Hexagon.svg) no-repeat ;
+    background-size: cover;
+}
+.titulo-container{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 2.5rem;
+    color: yellow;
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(34, 34, 216);
+    margin: 0 auto;
+}
+.btn-nueva-batalla{
+    border-style: none;
+    background-color: rgb(255, 0, 255);
+    color: white;
+    border-radius:30px ;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    transition: all 500ms;
+    margin: 0 auto;
+}
+.btn-nueva-batalla:hover{
+    cursor: pointer;
+    background-color: rgb(253, 0, 34);
+    transform: scale(1.1);
+}
+
+.pokemon-list{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 75%;
+}
+
+.pokemon{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333; 
+    padding: 10px;
+    background:no-repeat center url(img/pokemon-bg.jpg);
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 9px 9px 26px 6px rgba(0,0,0,0.79);
+    -webkit-box-shadow: 9px 9px 26px 6px rgba(0,0,0,0.79);
+    -moz-box-shadow: 9px 9px 26px 6px rgba(0,0,0,0.79);
+    transition: all 600ms;
+}
+.pokemon:hover{
+    transform: scale(1.03);
+}
+.nombre-pokemon{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 13px rgba(0,0,0,1);
+}
+.tipo{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    align-items: center;
+}
+.pokemon-tipo{
+    font-family: 'Shantell Sans', cursive;
+    color: #ffffff;
+    font-weight: bold;
+    color: wheat;
+    text-shadow: 4px 4px 6px rgba(0,0,0,1);
+}
+.pokemon-img-tipo{
+    border-radius: 100%;
+}
+.vs{
+    width: 10%;
+}
+.img-pokemon{
+    width: 70%;
+}
